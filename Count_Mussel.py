@@ -81,7 +81,7 @@ class CountMussel:
 
         return counter, img_count
 
-
+#controlled parameters with trackbar 
 def tracker():
     cv.namedWindow("Parameters")
     cv.resizeWindow("Parameters", 640, 240)
